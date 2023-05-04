@@ -1,4 +1,4 @@
-package com.yuanwhy.rmi.client;
+package com.yuanwhy.rmi.server;
 
 import com.yuanwhy.rmi.api.Task;
 
@@ -14,6 +14,7 @@ public class Pi implements Task<BigDecimal>, Serializable {
 
     @Override
     public BigDecimal execute() {
+        System.out.println("server pi method......");
         return new BigDecimal(Math.PI);
     }
 }

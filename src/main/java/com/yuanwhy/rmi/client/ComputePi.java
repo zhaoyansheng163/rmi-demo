@@ -1,6 +1,7 @@
 package com.yuanwhy.rmi.client;
 
 import com.yuanwhy.rmi.api.Compute;
+import com.yuanwhy.rmi.server.Pi;
 
 import java.math.BigDecimal;
 import java.rmi.registry.LocateRegistry;
